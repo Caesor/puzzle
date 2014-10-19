@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Puzzle</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="lib/puzzle.css" />
+	<script type="text/javascript" src="lib/puzzle.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Puzzle</h1>
+		<ul class="game_info">
+			<li>Level : <span id="level">3</span></li>
+			<li>Step : <span id="step">0</span></li>
+			<li>Time : <span id="time">0</span> s </li>
+		</ul>
+	</header>
+	<section class="puzzle_wall">
+		<section id="puzzle_area"></section>
+		<section id="whole_puzzle"></section>
+		<section class="control_bar">
+			<label>Backgroud:
+				<select id="bg">
+					<option>Dragon Rider</option>
+					<option>KungFu Panda</option>
+					<option>Cartoon Balloon</option>
+				</select>
+			</label>
+			<label>Level:
+				<select id="choose_level">
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
+			</label>
+			<button id="start">Start</button>
+			<button id="cheat">Cheat</button>
+		</section>
+	</section>
+	<footer>
+		<p>© Nemo 2014 made for my love Mandy.</p>
+	</footer>
+</body>
+</html>
