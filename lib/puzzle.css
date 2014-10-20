@@ -7,7 +7,7 @@ header h1{font-size: 40px;font-weight: 900;text-align: center;line-height: 50px;
 header .game_info{font-size: 20px; text-align: center;margin: 10px 0;list-style-type: none;}
 header .game_info li{display: inline-block; margin-right: 35px;}
 .puzzle_wall{margin-bottom: 40px;text-align: center;}
-#puzzle_area{position:relative;width: 400px;height:400px;margin: 0 auto;border: 5px solid #ccc;outline: 1px solid #B4B4B4;}
+#puzzle_area{position:relative;width:95%;max-width: 400px;margin: 0 auto;border: 5px solid #ccc;outline: 1px solid #B4B4B4;}
 .puzzle_part{position: absolute;background-color: #000;background-image: url(resource/background0.jpg);cursor: pointer;}
 /* the puzzle_part which will move */
 .will_move{
